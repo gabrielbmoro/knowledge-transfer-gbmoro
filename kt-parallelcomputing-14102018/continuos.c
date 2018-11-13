@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 	int i,j,k;
 	double tmp=0.0;
 
-	#pragma omp parallel for private(i,j,k) schedule(static)
+	#pragma omp parallel for private(i,j,k,tmp)
 	for(i=0;i < size; i++)
 		for(j=0;j < size; j++)
 		{
