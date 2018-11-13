@@ -3,7 +3,7 @@
 # gabrielbronzattimoro.es@gmail.com
 
 # FLAGS
-FLAGS := -Wall -Wextra -O2
+FLAGS := -Wextra
 
 # TARGET RULES
 all: normal_seq normal_par continuos_seq continuos_par tiling_seq tiling_par normal_seqT normal_parT continuos_seqT continuos_parT tiling_seqT tiling_parT
