@@ -17,9 +17,7 @@ void printerOfMatrix(double *, int);
 int main(int argc, char *argv[]) 
 {
 	/*Inicializacao de variaveis*/
-	int size=10, tid=0;
-
-	int TRANSPOSE=0;
+	int size=10;
 
 	double *A, *B, *R;
 

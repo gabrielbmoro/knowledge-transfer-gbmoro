@@ -55,7 +55,7 @@ double **hpcelo_create_matrix (unsigned long long size)
 {
   double **matrix = malloc(size * sizeof(double*));
   /* Error checking */
-  unsigned long long i, j, k;
+  unsigned long long i, j;
   for (i=0; i < size; i++){
     matrix[i] = malloc(size * sizeof(double));
     for (j = 0; j < size; j++){
@@ -67,7 +67,7 @@ double **hpcelo_create_matrix (unsigned long long size)
 
 void hpcelo_free_matrix (double **matrix, unsigned long long size)
 {
-  unsigned long long i, j;
+  unsigned long long i;
   for (i=0; i < size; i++){
     free(matrix[i]);
   }
