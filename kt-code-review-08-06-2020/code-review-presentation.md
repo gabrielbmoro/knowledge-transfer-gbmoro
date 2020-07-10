@@ -188,6 +188,56 @@ or
 
 ---
 
+#### Automated Code Review - Codebeat
+
+<img src="/img/codebeat-tool-logo.png" height="32px" alt="..."></img>
+
+<div class="container">
+  <div class="col">
+  
+  ##### Advantages
+
+  - You can use in public repositories that you have;
+
+  - You can have your repository rated according to your code quality.  
+  
+  </div>
+
+  <div class="col">
+  
+  ##### Disadvantages
+
+  - Need to share your code with Codebeat;
+
+  - It is not effective to check XML files.
+  </div>
+</div>
+
+---
+
+#### Automated Code Review - Codebeat
+
+<img src="/img/codebeat-tool-report-github-repo.png" alt="..."></img>
+
+
+---
+
+#### Automated Code Review - Codebeat
+
+<img src="/img/codebeat-tool-report.png" alt="..."></img>
+
+
+
+---
+
+
+#### Supported Languages - Codebeat
+
+<img src="/img/codebeat-support-languages.png" alt="..."></img>
+
+
+---
+
 ### Conclusion
 
 > A good tip is to have your checklist to make your code reviews better.
