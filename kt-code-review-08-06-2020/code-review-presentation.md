@@ -3,7 +3,7 @@ theme: 'night'
 transition: 'slide'
 highlightTheme: 'monokai'
 logoImg: '/img/logo.png'
-slideNumber: false
+slideNumber: true
 title: 'Code Review on Android Projects'
 ---
 
@@ -79,18 +79,52 @@ class LoginActivity : Activity() {
 
 #### Deep layouts
 
+
+<div class="container">
+  <div class="col">
+
 ```xml
-<LinearLayout>
-  <FrameLayout>
-    <ConstraintLayout>
-      <View />
-      <View />
-      <View />
-      <View />
-    </ConstraintLayout>
-  </FrameLayout>
+<LinearLayout
+ orientation="vertical">
+  <ScrollView>
+    <LinearLayout 
+    orientation="vertical">
+      <View color="blue"/>
+      <View color="green"/>
+      <View color="gray"/>
+    </LinearLayout>
+  </ScrollView>
 </LinearLayout>
-```
+```  
+
+</div>
+<div class="col">
+<img height=200 src="/img/linear-layout-deep-example.png" alt="..."></img>
+</div>
+
+---
+
+#### Deep layouts
+
+
+<div class="container">
+  <div class="col">
+
+```xml
+  <ScrollView>
+    <LinearLayout 
+    orientation="vertical">
+      <View color="blue"/>
+      <View color="green"/>
+      <View color="gray"/>
+    </LinearLayout>
+  </ScrollView>
+```  
+
+</div>
+<div class="col">
+<img height=200 src="/img/linear-layout-deep-example.png" alt="..."></img>
+</div>
 
 ---
 
@@ -119,7 +153,12 @@ x?.let { call(x) }
 
 - Unused resources like drawables, strings, colors, and so on
 
-- Commented code <small>(I know your pain, don't be afraid, remove that please!)</small>
+- Commented code 
+
+``` java
+// val advice = "remove that please"
+// print("I know your pain, don't be afraid, $advice!")
+```
 
 ---
 
